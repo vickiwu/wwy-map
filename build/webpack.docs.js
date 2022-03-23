@@ -1,10 +1,10 @@
 /**
  * @Author: vickiWu
- * @Date: 2022-03-23 14:37:51
- * @LastEditTime: 2022-03-23 18:28:45
+ * @Date: 2022-03-23 19:08:00
+ * @LastEditTime: 2022-03-23 19:08:01
  * @LastEditors: vickiWu
  * @Description: 
- * @FilePath: \wwy-map\build\webpack.config.js
+ * @FilePath: \wwy-map\build\webpack.docs.js
  */
 const path = require("path");
 
@@ -17,7 +17,7 @@ module.exports = {
   mode: process.env.NODE_ENV,
   entry: "./examples/main.js",
   output: {
-    path: path.resolve(process.cwd(), "dist"),
+    path: path.resolve(process.cwd(), "docs"),
     filename: "bundle.js",
   },
   resolve: {
