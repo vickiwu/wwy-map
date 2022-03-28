@@ -1,7 +1,7 @@
 /**
  * @Author: vickiWu
  * @Date: 2022-03-23 18:06:09
- * @LastEditTime: 2022-03-23 18:06:10
+ * @LastEditTime: 2022-03-24 10:08:28
  * @LastEditors: vickiWu
  * @Description:
  * @FilePath: \wwy-map\src\index.js
@@ -32,5 +32,5 @@ export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
   // 具体的组件列表
-  Loading,
+  MeLoading: Loading,
 }
