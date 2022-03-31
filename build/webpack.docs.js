@@ -29,7 +29,7 @@ module.exports = {
     modules: ['node_modules'],
   },
   devServer: {
-    port: 8085,
+    port: 8886,
     hot: true,
     contentBase: './dist',
   },
